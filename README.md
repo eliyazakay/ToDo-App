@@ -1,11 +1,11 @@
-# Task Manager / To-Do App ✅
+# Task Manager / To-Do App 
 
 A simple **Task Manager web application** built with HTML, CSS, and JavaScript.  
 The app allows users to create, edit, mark as complete, and delete tasks, while keeping data saved locally in the browser.  
 
 ---
 
-## ✨ Features
+##  Features
 - **CRUD operations**: Add, view, edit, and delete tasks.  
 - **Mark tasks as completed** and filter by status (*All / Active / Completed*).  
 - **Sorting options**: by creation date, due date, or title.  
@@ -14,14 +14,14 @@ The app allows users to create, edit, mark as complete, and delete tasks, while 
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 - **HTML5** for structure  
 - **CSS3** (Flexbox + Grid) for styling  
 - **JavaScript (Vanilla JS)** for logic and local storage  
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Clone or download this repository.  
 2. Open the project folder.  
 3. Run the app in one of two ways:
@@ -30,7 +30,7 @@ The app allows users to create, edit, mark as complete, and delete tasks, while 
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 *(Add your screenshots here)*  
 Example:  
 ![App Screenshot](screenshots/todo-example.png)  
@@ -38,11 +38,11 @@ Example:
 ---
 
 ##  Roadmap (Future Improvements)
-- 🔑 User login (separate tasks per user).  
-- 📊 Dashboard with task statistics and charts.  
-- ☁️ Backend integration (SQLite / Node.js).  
-- 🧪 Automated tests + QA test cases.  
-- 🎨 Dark mode theme.  
+-  User login (separate tasks per user).  
+-  Dashboard with task statistics and charts.  
+-  Backend integration (SQLite / Node.js).  
+-  Automated tests + QA test cases.  
+-  Dark mode theme.  
 
 ---
 
