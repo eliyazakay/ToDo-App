@@ -30,13 +30,6 @@ The app allows users to create, edit, mark as complete, and delete tasks, while 
 
 ---
 
-##  Screenshots
-*(Add your screenshots here)*  
-Example:  
-![App Screenshot](screenshots/todo-example.png)  
-
----
-
 ##  Roadmap (Future Improvements)
 -  User login (separate tasks per user).  
 -  Dashboard with task statistics and charts.  
