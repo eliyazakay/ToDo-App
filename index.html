@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+
+    <form id="task-form">
+      <input id="title" type="text" placeholder="Task title..." required />
+      <input id="dueDate" type="date" />
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="controls">
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="active">Active</button>
+        <button data-filter="completed">Completed</button>
+      </div>
+      <div class="sort">
+        <label>
+          Sort:
+          <select id="sortSelect">
+            <option value="created">Created</option>
+            <option value="dueDate">Due date</option>
+            <option value="title">Title</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <template id="task-item">
+    <li class="task">
+      <label class="left">
+        <input class="toggle" type="checkbox" />
+        <span class="title"></span>
+        <small class="due"></small>
+      </label>
+      <div class="actions">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </div>
+    </li>
+  </template>
+
+  <!-- Simple inline edit modal -->
+  <dialog id="editDialog">
+    <form method="dialog" id="editForm">
+      <h3>Edit Task</h3>
+      <input id="editTitle" type="text" required />
+      <input id="editDueDate" type="date" />
+      <menu>
+        <button value="cancel">Cancel</button>
+        <button id="editSave" value="default">Save</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
